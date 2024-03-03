@@ -123,13 +123,9 @@ p {
 	background: linear-gradient(to right, var(--main-color), var(--second-color));
 }
 
-/* .whiteContentSection h2, modifier car ne fonctionnait pas ! RD
+.whiteContentSection h2,
 .whiteContentSection h3,
 .whiteContentSection p {
-	color:  white;
-} */
-
-.whiteContentSection {
 	color:  white;
 }
 
@@ -138,9 +134,7 @@ p {
 }
 
 /***************/
-.sectionLightGreyBackground {
-	background-color: var(--light-grey-color);
-}
+.sectionLightGreyBackground { background-color: var(--light-grey-color); }
 
 .button {
 	margin: 20px 0px;
